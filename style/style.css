@@ -207,27 +207,42 @@ width: -100px;
 .footer{ 
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
+    background-color: rgb(252, 247, 242);
 }
 .footer-li{ 
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.footer-logo{ 
+    width: 50px;
+}
 
 
 @media screen and (max-width:576px) {
-    .flower, .Title-banner, .sub-title-banner{ 
+     .Title-banner, .sub-title-banner{ 
         flex-direction: column;
     }
 
-    .flower{ 
-        flex-direction: column ;
-    }
+   
+   
     .photo-container{ 
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
+        padding: 50px;
     }
-
-
-
+.store-title{ 
+    flex-direction: column;
 }
+
+.container-3{ 
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.container-5{ 
+    width: 30px;
+}
+
+ }
+
